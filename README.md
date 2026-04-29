@@ -3,31 +3,31 @@
 Real-time USB connect/disconnect monitoring in the terminal with colour-coded output.
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python&logoColor=white)](https://python.org)
-[![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey?logo=linux&logoColor=white)](https://kernel.org)
-[![usbmonitor](https://img.shields.io/badge/usbmonitor-pyudev-orange)](https://pypi.org/project/usbmonitor)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)](https://pypi.org/project/usb-monitor)
+[![usbmonitor](https://img.shields.io/badge/usbmonitor-cross--platform-orange)](https://pypi.org/project/usb-monitor)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
 ---
 
 ## 🛠️ Why I built this
 
-A practical utility I needed for monitoring USB events on Linux or windows without a GUI. I wanted something lightweight that runs in the terminal and tells me exactly when a device connects or disconnects nothing more, nothing less. Simple, clean, gets the job done.
+A practical utility I needed for monitoring USB events without a GUI. I wanted something lightweight that runs in the terminal and tells me exactly when a device connects or disconnects nothing more, nothing less. Simple, clean, gets the job done.
 
 ---
 
 ## ✨ Features
 
-* 🟢 **Connect events** - prints the device ID in green when a USB device is plugged in
-* 🔴 **Disconnect events** - prints the device ID in red when a USB device is removed
-* 🧵 **Background thread** - monitor runs as a daemon so the main thread stays free
-* 🛑 **Clean shutdown** - press Enter to stop monitoring gracefully
+* 🟢 **Connect events** — prints the device ID in green when a USB device is plugged in
+* 🔴 **Disconnect events** — prints the device ID in red when a USB device is removed
+* 🧵 **Background thread** — monitor runs as a daemon so the main thread stays free
+* 🛑 **Clean shutdown** — press Enter to stop monitoring gracefully
 
 ---
 
 ## 🖥️ Requirements
 
 * Python 3.7+
-* Linux only -`usbmonitor` depends on `pyudev` which is Linux-specific
+* Windows, Linux, or macOS
 
 ---
 
@@ -44,7 +44,7 @@ cd usb-device-monitor
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 ```
 
 3. Install dependencies:
@@ -78,7 +78,7 @@ Disconnected: /dev/bus/usb/001/003
 
 | Package | Purpose |
 |---|---|
-| `usbmonitor` | USB event detection via pyudev |
+| `usbmonitor` | Cross-platform USB event detection (WMI on Windows, pyudev on Linux, I/O Registry on macOS) |
 | `colorama` | Cross-platform ANSI colour output |
 
 ---
