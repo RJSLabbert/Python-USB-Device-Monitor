@@ -36,7 +36,7 @@ A practical utility I needed for monitoring USB events without a GUI. I wanted s
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/RJSLabbert/usb-device-monitor.git
+git clone https://github.com/RJSLabbert/Python-USB-Device-Monitor.git
 cd usb-device-monitor
 ```
 
