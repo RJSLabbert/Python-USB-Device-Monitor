@@ -11,23 +11,23 @@ Real-time USB connect/disconnect monitoring in the terminal with colour-coded ou
 
 ## 🛠️ Why I built this
 
-A practical utility I needed for monitoring USB events on Linux without a GUI. I wanted something lightweight that runs in the terminal and tells me exactly when a device connects or disconnects — nothing more, nothing less. Simple, clean, gets the job done.
+A practical utility I needed for monitoring USB events on Linux or windows without a GUI. I wanted something lightweight that runs in the terminal and tells me exactly when a device connects or disconnects nothing more, nothing less. Simple, clean, gets the job done.
 
 ---
 
 ## ✨ Features
 
-* 🟢 **Connect events** — prints the device ID in green when a USB device is plugged in
-* 🔴 **Disconnect events** — prints the device ID in red when a USB device is removed
-* 🧵 **Background thread** — monitor runs as a daemon so the main thread stays free
-* 🛑 **Clean shutdown** — press Enter to stop monitoring gracefully
+* 🟢 **Connect events** - prints the device ID in green when a USB device is plugged in
+* 🔴 **Disconnect events** - prints the device ID in red when a USB device is removed
+* 🧵 **Background thread** - monitor runs as a daemon so the main thread stays free
+* 🛑 **Clean shutdown** - press Enter to stop monitoring gracefully
 
 ---
 
 ## 🖥️ Requirements
 
 * Python 3.7+
-* Linux only — `usbmonitor` depends on `pyudev` which is Linux-specific
+* Linux only -`usbmonitor` depends on `pyudev` which is Linux-specific
 
 ---
 
