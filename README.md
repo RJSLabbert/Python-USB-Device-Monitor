@@ -5,7 +5,7 @@ Real-time USB connect/disconnect monitoring in the terminal with colour-coded ou
 [![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python&logoColor=white)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)](https://pypi.org/project/usb-monitor)
 [![usbmonitor](https://img.shields.io/badge/usbmonitor-cross--platform-orange)](https://pypi.org/project/usb-monitor)
-[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+
 
 ---
 
