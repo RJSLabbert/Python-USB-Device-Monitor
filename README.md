@@ -4,7 +4,7 @@ Real-time USB connect/disconnect monitoring in the terminal with colour-coded ou
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python&logoColor=white)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)](https://pypi.org/project/usb-monitor)
-[![usbmonitor](https://img.shields.io/badge/usbmonitor-cross--platform-orange)](https://pypi.org/project/usb-monitor)
+[![usb-monitor](https://img.shields.io/badge/usbmonitor-cross--platform-orange)](https://pypi.org/project/usb-monitor)
 
 
 ---
@@ -68,8 +68,8 @@ Monitoring USB devices.
 Connect or disconnect devices to any USB port on the system.
 (Press Enter to close the program).
 Status:
-Connected: /dev/bus/usb/001/003
-Disconnected: /dev/bus/usb/001/003
+Connected: USB\VID_046D&PID_C077\1234567890
+Disconnected: USB\VID_046D&PID_C077\1234567890
 ```
 
 ---
@@ -80,6 +80,14 @@ Disconnected: /dev/bus/usb/001/003
 |---|---|
 | `usb-monitor` | Cross-platform USB event detection (WMI on Windows, pyudev on Linux, I/O Registry on macOS) |
 | `colorama` | Cross-platform ANSI colour output |
+
+---
+
+## 🔮 Future Plans
+
+* **Config file** — define backup paths and target devices.
+* **Plug and play backup** — auto-trigger backup when a specific drive connects.
+* **Expanded device info** — USB speed, vendor, and model details.
 
 ---
 
