@@ -11,7 +11,7 @@ Real-time USB connect/disconnect monitoring in the terminal with colour-coded ou
 
 ## 🛠️ Why I built this
 
-A practical utility I needed for monitoring USB events without a GUI. I wanted something lightweight that runs in the terminal and tells me exactly when a device connects or disconnects nothing more, nothing less. Simple, clean, gets the job done.
+A practical tool used to monitor USB devices connected to a system. Originally built to possibly automate backups when an external drive is connected, but also useful day-to-day for checking how many devices are active and whether USB ports are working correctly.
 
 ---
 
