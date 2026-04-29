@@ -78,7 +78,7 @@ Disconnected: /dev/bus/usb/001/003
 
 | Package | Purpose |
 |---|---|
-| `usbmonitor` | Cross-platform USB event detection (WMI on Windows, pyudev on Linux, I/O Registry on macOS) |
+| `usb-monitor` | Cross-platform USB event detection (WMI on Windows, pyudev on Linux, I/O Registry on macOS) |
 | `colorama` | Cross-platform ANSI colour output |
 
 ---
